@@ -8,3 +8,8 @@ app = FastAPI()
 def test():
     return {"test":"working"}
 
+@app.get("/hi")
+
+def gg():
+    return {"hi"}
+
